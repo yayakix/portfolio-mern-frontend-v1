@@ -9,7 +9,9 @@ function Projects(props) {
 
   };
 
-  useEffect(() => getProjectData, []);
+  useEffect(() => {
+    getProjectData();
+  });
 
   const loaded = () => {
     return projects.map((project, index) => (
