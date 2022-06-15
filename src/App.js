@@ -7,7 +7,7 @@ import { Route } from 'react-router-dom';
 import Footer from './components/Footer';
 
 function App() {
-  const URL = "http://localhost:4000/";
+  const URL = "https://backendportfoliov1mern.herokuapp.com/";
   return (
     <div className="App">
       <Header />
